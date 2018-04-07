@@ -1,0 +1,19 @@
+@import "./variables.scss";
+@import "./config.scss";
+@import "./flextags.scss";
+@import "./test.scss";
+
+@import "./components/decorations.scss";
+
+.navbar{
+  height:10%;
+}
+.bodyer{
+  height: 90%;
+}
+.comment{
+  margin-top: 15px
+}
+.comment-body{
+  padding: 1rem;
+}

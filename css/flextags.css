@@ -1,0 +1,39 @@
+.flex {
+  display: flex;
+  align-items: flex-start; }
+
+.screenSizeVertical {
+  height: 100vh; }
+
+.expandVertical {
+  height: 100%; }
+
+.left {
+  justify-content: flex-start; }
+
+.right {
+  justify-content: flex-end; }
+
+.up {
+  align-items: flex-start; }
+
+.down {
+  justify-content: flex-end; }
+
+.centerVertical {
+  justify-content: center; }
+
+.centerHorizontal {
+  justify-content: center; }
+
+.center {
+  align-items: center;
+  justify-content: center; }
+
+.flow {
+  flex-grow: 2 !important;
+  flex-basis: none;
+  max-width: none; }
+
+.column {
+  flex-direction: column; }

@@ -1,0 +1,12 @@
+{
+  "name": "tagmaggedon",
+  "version": "1.0.0",
+  "description": "just another tool to fix the front-end paradigm problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  } ,
+  "author": "Onar Berrade Fernandez",
+  "license": "ISC"
+}

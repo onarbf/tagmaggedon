@@ -1,0 +1,97 @@
+* {
+  word-wrap: break-word;
+  font-family: sans-serif; }
+
+html, body, p {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.row, div[class^="col-"] {
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 100%; }
+
+div[id^="btn-"]:hover {
+  background-color: red; }
+
+.stickyTop {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  /*A value which doesn't exceed the viewport height*/
+  left: 0px; }
+
+.flex {
+  display: flex;
+  align-items: flex-start; }
+
+.screenSizeVertical {
+  height: 100vh; }
+
+.expandVertical {
+  height: 100%; }
+
+.left {
+  justify-content: flex-start; }
+
+.right {
+  justify-content: flex-end; }
+
+.up {
+  align-items: flex-start; }
+
+.down {
+  justify-content: flex-end; }
+
+.centerVertical {
+  justify-content: center; }
+
+.centerHorizontal {
+  justify-content: center; }
+
+.center {
+  align-items: center;
+  justify-content: center; }
+
+.flow {
+  flex-grow: 2 !important;
+  flex-basis: none;
+  max-width: none; }
+
+.column {
+  flex-direction: column; }
+
+.border {
+  border: 1px solid grey;
+  border-radius: 5px; }
+
+.image {
+  height: 50px;
+  width: 50px;
+  border: 1px solid blue;
+  border-radius: 100%; }
+
+.border-bottom {
+  border-bottom: 1px solid grey; }
+
+.border-top {
+  border-top: 1px solid grey; }
+
+.border-left {
+  border-left: 1px solid grey; }
+
+.border-right {
+  border-right: 1px solid grey; }
+
+.navbar {
+  height: 10%; }
+
+.bodyer {
+  height: 90%; }
+
+.comment {
+  margin-top: 15px; }
+
+.comment-body {
+  padding: 1rem; }
