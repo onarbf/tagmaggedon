@@ -24,7 +24,7 @@
   justify-content: flex-end;
 }
 .up{
-  align-items:flex-start;
+  justify-content:flex-start;
 }
 .down{
   justify-content:flex-end;
@@ -33,7 +33,7 @@
   justify-content:center;
 }
 .centerHorizontal{
-  justify-content: center;
+  align-items:center;
 }
 .center{
   align-items:center;
