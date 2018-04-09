@@ -1,3 +1,11 @@
+.stickyTop {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  /*A value which doesn't exceed the viewport height*/
+  left: 0px; }
+
 .flex {
   display: flex;
   align-items: flex-start; }
@@ -24,7 +32,7 @@
   justify-content: center; }
 
 .centerHorizontal {
-  justify-content: center; }
+  align-content: center; }
 
 .center {
   align-items: center;

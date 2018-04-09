@@ -33,7 +33,7 @@
   justify-content:center;
 }
 .centerHorizontal{
-  justify-content: center;
+  align-content: center;
 }
 .center{
   align-items:center;
@@ -46,8 +46,4 @@
 }
 .column{
   flex-direction: column;
-}
-
-@media #{$md} {
-
 }
