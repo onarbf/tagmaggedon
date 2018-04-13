@@ -2,14 +2,4 @@
 @import "./config.scss";
 @import "./grid.scss";
 @import "./tags.scss";
-
-.border{
-  border: 1px solid grey;
-}
-.navbar{
-  min-height: 40px;
-}
-.navbar_logo{
-  width: 30px;
-  max-width: 30px;
-}
+@import "./presets.scss";

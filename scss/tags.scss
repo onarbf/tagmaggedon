@@ -1,15 +1,19 @@
 @import "./variables.scss";
 
-.img{
-  max-width: 100%;
-  padding: 0;
-  margin: 0;
+.full-screen {
+  height: 100vh !important;
 }
+
+.hidden{visibility: hidden;}
+.visible{visibility:visible;}
 
 .flex{
   display: flex;
 }
-
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
 .pos-0{
   justify-content:none;
   align-items: none;
@@ -134,8 +138,15 @@
 .round-4 {border-radius: $border-radius-4 !important;}
 .round-5 {border-radius: $border-radius-5 !important;}
 
+.order-1{order: 1;}
+.order-2{order: 2;}
+.order-3{order: 3;}
+.order-4{order: 4;}
+
 @media only screen and (min-width : $md){
 
+  .hidden-md{visibility: hidden;}
+  .visible-md{visibility:visible;}
 
   .pos-md-0{
     justify-content: none;
@@ -253,4 +264,8 @@
   .mar-md-bottom-4 {margin-bottom: $space-4 !important;}
   .mar-md-bottom-5 {margin-bottom: $space-5 !important;}
 
+  .order-md-1{order: 1 !important;}
+  .order-md-2{order: 2 !important;}
+  .order-md-3{order: 3 !important;}
+  .order-md-4{order: 4 !important;}
 }
