@@ -5,6 +5,7 @@
 
 div[class*='col-'], .row {
   display: flex;
+  flex-wrap: nowrap !important;
   margin: 0;
   padding: 0; }
 

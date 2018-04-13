@@ -24,6 +24,7 @@ img {
 
 div[class*='col-'], .row {
   display: flex;
+  flex-wrap: nowrap !important;
   margin: 0;
   padding: 0; }
 
@@ -125,7 +126,8 @@ div[class*='col-'], .row {
   visibility: visible; }
 
 .flex {
-  display: flex; }
+  display: flex;
+  flex-wrap: nowrap !important; }
 
 .flex-column {
   display: flex;
