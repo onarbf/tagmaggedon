@@ -11,6 +11,12 @@ div[class*='col-'], .row{
   margin: 0;
   padding: 0;
 }
+
+.align{
+  align-items: flex-start !important;
+  align-content: flex-start !important;
+}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -24,8 +30,17 @@ div[class*='col-'], .row{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (min-width : $md){
 
+.col-0{
+  visibility: hidden;
+  display: none !important;
+}
+.col-md-0{
+  visibility: visible;
+  display: inherit !important;
+}
+
+@media only screen and (min-width : $md){
   .col-md-1 {width: 8.33%;}
   .col-md-2 {width: 16.66%;}
   .col-md-3 {width: 25%;}
@@ -38,6 +53,15 @@ div[class*='col-'], .row{
   .col-md-10 {width: 83.33%;}
   .col-md-11 {width: 91.66%;}
   .col-md-12 {width: 100%;}
+
+  .col-0{
+    visibility: visible;
+    display: inherit !important;
+  }
+  .col-md-0{
+    visibility: hidden;
+    display: none !important;
+  }
 
 }
 
