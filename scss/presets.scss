@@ -11,29 +11,9 @@
 .box {
   border: 1px solid grey;
   border-radius: 5px;
-  width: 100%; }
+  width: 100%;
+}
+
 .box_title{
   font-size: 30px;
 }
-
-
-label {
-  margin-top: 10px;
-}
-
-input {
-  min-height: 40px;
-  margin-top: 10px;
-  border-radius: 6px;
-  border: 1px solid grey;
-  font-size: 1rem;
-  padding-left: 1rem;
-}
-
-button {
-  min-height: 40px;
-  margin-top: 20px;
-  border-radius: 6px;
-  border: 1px solid grey;
-  width: 100%;
-  font-size: 16px; }
