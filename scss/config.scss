@@ -3,7 +3,6 @@
 *:after {
   box-sizing: inherit;
   text-overflow: ellipsis;
-  overflow: hidden;
 }
 
 html {
@@ -13,42 +12,42 @@ body{
   padding: 0;
   margin: 0;
 }
-
-img{
-  max-width: 100%;
-  max-height:100%;
-  padding: 0;
-  margin: 0;
-}
-
-input {
-  height: 40px;
-  border-radius: 6px;
-  border: 1px solid grey;
-  font-size: 1rem;
-  width: 100%;
-}
-
-input:focus {
-  background-color: #f4f4f4 !important;
-  border: 1px solid grey;
-  outline: none !important;
-}
-
-button {
-  height: 40px;
-  border-radius: 6px;
-  border: 1px solid grey;
-  width: 100%;
-  font-size: 1rem;
-  width: 100%;
-  outline: none !important;
-}
-
-button:active {
-  outline: none !important;
-  background-color: #f4f4f4;
-}
+// 
+// img{
+//   max-width: 100%;
+//   max-height:100%;
+//   padding: 0;
+//   margin: 0;
+// }
+//
+// input {
+//   height: 40px;
+//   border-radius: 6px;
+//   border: 1px solid grey;
+//   font-size: 1rem;
+//   width: 100%;
+// }
+//
+// input:focus {
+//   background-color: #f4f4f4 !important;
+//   border: 1px solid grey;
+//   outline: none !important;
+// }
+//
+// button {
+//   height: 40px;
+//   border-radius: 6px;
+//   border: 1px solid grey;
+//   width: 100%;
+//   font-size: 1rem;
+//   width: 100%;
+//   outline: none !important;
+// }
+//
+// button:active {
+//   outline: none !important;
+//   background-color: #f4f4f4;
+// }
 
 .font-size--1{
   font-size: 0.8rem;
