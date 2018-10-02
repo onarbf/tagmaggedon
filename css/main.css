@@ -15,9 +15,7 @@ body {
 div[class*='col-'], .row {
   display: flex;
   flex-wrap: wrap !important;
-  align-items: flex-start;
-  margin: 0;
-  padding: 0; }
+  align-items: flex-start; }
 
 .flex {
   display: flex;
