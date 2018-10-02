@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif; }
+
+body {
+  font-size: 1rem; }
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0; }
+
 *,
 *:before,
 *:after {
@@ -614,14 +625,3 @@ div[class*='col-'], .row {
     min-height: 450px !important; }
   .h-sm-500 {
     min-height: 500px !important; } }
-
-html {
-  font-size: 16px;
-  font-family: 'Open Sans', sans-serif; }
-
-body {
-  font-size: 1rem; }
-
-h1, h2, h3, h4, h5, h6, p {
-  padding: 0;
-  margin: 0; }
