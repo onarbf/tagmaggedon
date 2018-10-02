@@ -1,23 +1,211 @@
+
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>TAGMAGGEDON TEST</title>
-    <link rel="stylesheet" href="https://rawgit.com/onarbf/tagmaggedon/tagmaggedon-v2/css/main.css">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+    <style media="screen">
+      body{
+        font-family: "Montserrat";
+      }
+      h1{
+        font-size: 2.8rem;
+        padding: 0;
+        margin: 0;
+      }
+      h4{
+        font-size: 1.4rem;
+        padding: 0;
+        margin: 0;
+      }
+      .font-size-big{
+        font-size:4rem;
+      }
+      .first-color{
+        background-color: #353B47 !important;
+      }
+      .second-color{
+        background-color: #6983BD !important;
+      }
+      .font-color-white{
+        color: white;
+      }
+      .font-color-first-color{
+        color: #353B47 !important;
+      }
+      .font-color-second-color{
+        color: #6983BD  !important;
+      }
+      .font-lighter{
+        font-weight: 300;
+      }
+      .font-bolder{
+        font-weight: bolder;
+      }
+      .border{
+        border: 1px solid grey;
+      }
+      .box-01{
+        background-color: rgba(0, 0, 0, 0.3);
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        filter: alpha(opacity=50) !important;
+      }
+      .box-02{
+        background-color: rgba(0, 0, 0, 0.3);
+        border: 5px solid white;
+        border-radius: 5px;
+        filter: alpha(opacity=50) !important;
+      }
+      .background-image-01{
+        background-image: url('https://storage.pardot.com/532212/77369/20120416_025_.original.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+        background-position:center;
+      }
+      .background-image-02{
+        background-image: url('https://info.unav.edu/l/532212/2018-09-20/2vpp9d/532212/77657/Captura_de_pantalla_2018_09_20_a_las_8.52.29.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        height: 310px;
+        width: 100%;
+      }
+
+      .background-image-03{
+        background-image: url('https://storage.pardot.com/532212/77387/download.jpg');
+        background-repeat: no-repeat;
+
+        background-position: center;
+        height: 310px;
+        width: 100%;
+      }
+      .background-color-01{
+        background: rgba(98,131,194,0.41);
+      }
+      .logo-unav{
+        height:70%;
+      }
+      .logo-unav-footer{
+        height:50% !important;
+      }
+      .button-01{
+        border: 2px solid white;
+        background-color: #6983BD;
+        color:white;
+        border-radius: 12px;
+        font-size: 3rem;
+        font-family: "Montserrat", sans-serif;
+        padding: 1rem;
+        padding-left: 0.5rem;
+        cursor:pointer;
+      }
+      .text-align-center{
+        text-align: center;
+      }
+    </style>
+  <script type="text/javascript">
+piAId = '533212';
+piCId = '16535';
+piHostname = 'pi.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script></head>
   <body>
-    <div class="col-12 border h-100">
-      <div class="col-12 border pos-5">
-        aa
+    <div class="section col-12 pos-5 second-color background-image-01">
+      <div class="col-12  pos-5 background-color-01 ">
+        <div class="col-7">
+          <div class="col-6 col-xs-12 font-color-white">
+            <div class="col-12 pad-top-5 ">
+              <h4>Sesión informativa</h4>
+            </div>
+            <div class="col-8 col-xs-12" >
+              <div class="box-01 opacity-50 pad-left-1">
+                <h1>La Universidad de Navarra en</h1>
+                <h1>Panamá</h1>
+              </div>
+            </div>
+            <div class="col-12 ">
+              <div class="pad-top-3">
+                <img class="logo-unav" src="https://info.unav.edu/l/532212/2018-08-31/2v1vn8/532212/74031/logo_blanco.png" alt="logo unav">
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-xs-12 pos-5 font-color-white first-color ">
+            <div class="col-12 mar-left-5 mar-right-5 pos-5">
+              <div class="col-12 pos-5">
+                <div class="col-6 col-xs-12 pos-5 text-align-center">
+
+                    <h2>Elige la hora que más te convenga. ¡Plazas limitadas!</h2>
+                </div>
+              </div>
+              <a href="https://doodle.com/poll/thasr6qd5e2if6mn">
+                <button class="button-01" type="button" name="button">
+                  Concertar cita
+                </button>
+              </a>
+              <div class="mar-top-5"></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-12 border ">
-        aa
+    </div>
+    <div class="section col-12 pos-5 pad-top-5 pad-bottom-5">
+      <div class="col-6 pos-5">
+        <div class="col-12 pos-5">
+          <h1 class="font-color-second-color">VEN Y RESUELVE TUS DUDAS</h1>
+        </div>
+        <div class="col-10 pos-5 text-align-center pill">
+            <h3 class="pill-title">Todos queremos lo mejor para nuestros hijos. La Universidad de Navarra es la oportunidad de garantizarles su futuro. Por esta razón, te invitamos a la sesión informativa que se celebra en tu ciudad. Recibirás respuestas claras a todas tus preguntas.  </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="section col-12 pos-5 first-color pad-top-5 pad-bottom-5">
+      <div class="col-6 pos-5">
+        <div class="col-12 pos-5">
+          <h1 class="font-color-second-color pill-title">CUANDO</h1>
+        </div>
+        <div class="col-12 pos-5 font-color-white">
+          <div class="col-12 pos-5 pill">
+            <h3  class="pill-title">MIÉRCOLES 10 DE OCTUBRE DE 2018, 16:00 PM - 20:00 PM</3>
+          </div>
+          <div class="col-12 pos-5 pill">
+            <h4 class="pill-title">HOTEL DECÁPOLIS</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="col-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.942333364909!2d-79.51928604856406!3d8.977453993525007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fac555d13042fef%3A0x3099dcc78bd4a70a!2sRadisson+Decapolis+Hotel+Panama+City!5e0!3m2!1ses!2ses!4v1537451916946" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="col-12 background-image-03">
+      <div class="section col-12 background-color-01">
+
+      </div>
+    </div>
+    <div class="section col-12 pos-5 second-color pad-top-5 pad-bottom-5">
+      <div class="col-12 pos-5">
+        <div class="  pad-top-3 pos-5">
+          <img class="logo-unav" src="https://info.unav.edu/l/532212/2018-08-31/2v1vn8/532212/74031/logo_blanco.png" alt="logo unav">
+        </div>
       </div>
     </div>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-  </script>
-  </html>
+</html>

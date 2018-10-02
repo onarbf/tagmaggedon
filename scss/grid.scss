@@ -4,11 +4,13 @@ div[class*='col-'], .row{
   display: flex;
   flex-wrap: wrap !important;
   align-items: flex-start;
+  align-items: stretch !important;
 }
 
 .flex{
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch !important; 
 }
 
 .col-1 {width: 8.33%;}
