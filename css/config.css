@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 *,
 *:before,
 *:after {
@@ -5,8 +6,111 @@
   text-overflow: ellipsis; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif; }
 
 body {
   padding: 0;
+  margin: 0;
+  font-size: 1rem; }
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
   margin: 0; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+form {
+  width: 100%;
+  padding: 1rem; }
+
+form p, form span, label {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  font-weight: bold; }
+
+input {
+  padding: 1rem;
+  font-size: 1rem;
+  color: black !important;
+  border-radius: 5px;
+  border: 1px solid #222222;
+  width: 100%;
+  margin-bottom: 1rem; }
+
+input[type=button], input[type=submit] {
+  font-weight: bold;
+  background-color: #FBFBFB; }
+
+input[type=button]:hover, input[type=submit]:hover {
+  font-weight: bold;
+  background-color: #EEEEEE;
+  cursor: pointer;
+  outline: none; }
+
+input[type=button]:active, input[type=submit]:active {
+  font-weight: bold;
+  background-color: #FBFBFB;
+  outline: none; }
+
+input[type=button]:focus, input[type=submit]:focus {
+  outline: none; }
+
+.background-responsive {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: local;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.background-responsive-top {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: local;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.background-responsive-bottom {
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: local;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.background-responsive-left {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-attachment: local;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.background-responsive-right {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: local;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.background-parallax {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.s-border {
+  border: 1px solid grey;
+  border-radius: 5px; }
+
+.square:after {
+  content: "";
+  padding-bottom: 100%; }

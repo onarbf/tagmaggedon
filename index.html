@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
@@ -11,201 +9,776 @@
     <title></title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
-    <style media="screen">
-      body{
-        font-family: "Montserrat";
-      }
-      h1{
-        font-size: 2.8rem;
-        padding: 0;
-        margin: 0;
-      }
-      h4{
-        font-size: 1.4rem;
-        padding: 0;
-        margin: 0;
-      }
-      .font-size-big{
-        font-size:4rem;
-      }
-      .first-color{
-        background-color: #353B47 !important;
-      }
-      .second-color{
-        background-color: #6983BD !important;
-      }
-      .font-color-white{
-        color: white;
-      }
-      .font-color-first-color{
-        color: #353B47 !important;
-      }
-      .font-color-second-color{
-        color: #6983BD  !important;
-      }
-      .font-lighter{
-        font-weight: 300;
-      }
-      .font-bolder{
-        font-weight: bolder;
-      }
-      .border{
-        border: 1px solid grey;
-      }
-      .box-01{
-        background-color: rgba(0, 0, 0, 0.3);
-        border-top: 5px solid white;
-        border-bottom: 5px solid white;
-        filter: alpha(opacity=50) !important;
-      }
-      .box-02{
-        background-color: rgba(0, 0, 0, 0.3);
-        border: 5px solid white;
-        border-radius: 5px;
-        filter: alpha(opacity=50) !important;
-      }
-      .background-image-01{
-        background-image: url('https://storage.pardot.com/532212/77369/20120416_025_.original.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size:cover;
-        background-position:center;
-      }
-      .background-image-02{
-        background-image: url('https://info.unav.edu/l/532212/2018-09-20/2vpp9d/532212/77657/Captura_de_pantalla_2018_09_20_a_las_8.52.29.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-        height: 310px;
-        width: 100%;
-      }
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+    .background-01{
+      background-image:
+      url("http://www.vdr.es/site/wp-content/uploads/eco-noc_0021.jpg");
+    }
+    .background-color-first{
+      background-color: rgba(155, 35, 28, 0.8)
+    }
+    .background-color-second{
+      background-color: #A03B36;
+    }
+    .background-color-third{
+      background-color: #233D4D;
+    }
+    .background-color-fourth{
+      background-color: #F7B32B;
+    }
 
-      .background-image-03{
-        background-image: url('https://storage.pardot.com/532212/77387/download.jpg');
-        background-repeat: no-repeat;
+    .grado-1{
+      background-color: #A06966;
+    }
+    .grado-1:hover{
+      background-color: #A03B36;
+    }
+    a .grado-1{
+      color: white;
+    }
 
-        background-position: center;
-        height: 310px;
-        width: 100%;
-      }
-      .background-color-01{
-        background: rgba(98,131,194,0.41);
-      }
-      .logo-unav{
-        height:70%;
-      }
-      .logo-unav-footer{
-        height:50% !important;
-      }
-      .button-01{
-        border: 2px solid white;
-        background-color: #6983BD;
-        color:white;
-        border-radius: 12px;
-        font-size: 3rem;
-        font-family: "Montserrat", sans-serif;
-        padding: 1rem;
-        padding-left: 0.5rem;
-        cursor:pointer;
-      }
-      .text-align-center{
-        text-align: center;
-      }
+    .grado-2  {
+      background-color: #30414C;
+    }
+    .grado-2:hover{
+      background-color: #233D4D;
+    }
+    a .grado-2{
+      color: white;
+    }
+
+    .grado-3{
+      background-color: #F7D99E;
+    }
+    .grado-3:hover{
+      background-color: #F7B32B;
+    }
+    a .grado-3{
+      color: white;
+    }
+
+    .section-grados a{
+      text-decoration: none !important;
+    }
+    .section-grados a:active{
+      text-decoration: none !important;
+      color: white;
+    }
+    .header-logo{
+      width: 250px;
+    }
     </style>
-  <script type="text/javascript">
-piAId = '533212';
-piCId = '16535';
-piHostname = 'pi.pardot.com';
-
-(function() {
-	function async_load(){
-		var s = document.createElement('script'); s.type = 'text/javascript';
-		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
-		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
-	}
-	if(window.attachEvent) { window.attachEvent('onload', async_load); }
-	else { window.addEventListener('load', async_load, false); }
-})();
-</script></head>
+  </head>
   <body>
-    <div class="section col-12 pos-5 second-color background-image-01">
-      <div class="col-12  pos-5 background-color-01 ">
-        <div class="col-7">
-          <div class="col-6 col-xs-12 font-color-white">
-            <div class="col-12 pad-top-5 ">
-              <h4>Sesión informativa</h4>
+    <div class="col-12 background-color-softdark pos-5 height-10 font-color-white">
+      <img class="header-logo pad-2" src="https://storage.pardot.com/532212/74031/logo.gif" alt="">
+    </div>
+    <div class="section-orientacion background-responsive background-01 col-12 height-500 background-color-softdark font-color-white">
+      <div class="col-8 ">
+        <div class="col-12 pad-top-5 pad-sm-top-0 pos-2">
+          <div class="col-8 pos-5 pad-5 background-color-first border-radius-2">
+            <div class="col-12 pos-5">
+              <h1 class="text-align-center">¿Todavía no tienes claro lo que quieres estudiar?</h1>
             </div>
-            <div class="col-8 col-xs-12" >
-              <div class="box-01 opacity-50 pad-left-1">
-                <h1>La Universidad de Navarra en</h1>
-                <h1>Panamá</h1>
-              </div>
-            </div>
-            <div class="col-12 ">
-              <div class="pad-top-3">
-                <img class="logo-unav" src="https://info.unav.edu/l/532212/2018-08-31/2v1vn8/532212/74031/logo_blanco.png" alt="logo unav">
-              </div>
+            <div class="col-10 pos-5 text-align-center pad-top-5 ">
+              <h4> Elegir que vas a estudiar es una de las decisiones más difíciles e importantes de tu vida. Por eso, en la Universidad de Navarra queremos ayudarte con ello, y por eso ponemos a tu disposición el test de orientación gratuito </h4>
             </div>
           </div>
-          <div class="col-6 col-xs-12 pos-5 font-color-white first-color ">
-            <div class="col-12 mar-left-5 mar-right-5 pos-5">
-              <div class="col-12 pos-5">
-                <div class="col-6 col-xs-12 pos-5 text-align-center">
+        </div>
+      </div>
+      <div class="col-3 pos-2 background-color-first pad-top-5">
+        <div class="col-12 pos-5">
+          <h1 class="text-align-center">Solicitar test de orientación</h1>
+        </div>
+        <div class="col-8 mar-top-5 pad-sm-2">
+          <input type="button" name="button" value="IR AL PORTAL MIUNAV"/>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 pos-5 background-color-softdark font-color-white">
+      <div class="col-12 pos-5 pad-top-5">
+        <h1 class="text-align-center">Y por si acaso...</h1>
+      </div>
+      <div class="col-12 pos-5 pad-top-3 mar-bottom-5">
+        <h2 class="text-align-center">Aquí tienes toda la oferta de grado y de posgrado de la Universdad</h2>
+      </div>
+    </div>
 
-                    <h2>Elige la hora que más te convenga. ¡Plazas limitadas!</h2>
+    <div class="section-grados col-12 pad-sm-2 mar-top-5 mar-bottom-5">
+      <div class="col-12 pos-5">
+        <div class="col-6">
+          <div class="grados col-12 mar-sm-bottom-0 mar-bottom-3 pos-5">
+
+            <div class="col-10 mar-top-2">
+              <div id="trigger-01" class="col-12 pos-7 pos-sm-5 mar-sm-bottom-2 pad-3  height-100 background-color-second font-color-white border-radius-2">
+                <div class="col-8">
+                  <h2>Ciencias Sociales</h2>
+                </div>
+                <div class="col-4 pos-3">
+                  <b><span>ver más + </span></b>
                 </div>
               </div>
-              <a href="https://doodle.com/poll/thasr6qd5e2if6mn">
-                <button class="button-01" type="button" name="button">
-                  Concertar cita
-                </button>
-              </a>
-              <div class="mar-top-5"></div>
+
+              <div id="triggered-01" class="col-12">
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Filología Hispánica
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Filosofía
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Historia
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Humanidades (bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Historia+Diploma en Estudios Curatoriales
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Historia + Diploma en Arqueología
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Humanidades + Diploma en Estudios Curatoriales
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Literatura y Escritura Creativa
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Filosofía, Política y Economía (Philosophy, Politics, Economics - PPE)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filología Hispánica / Comunicación Audiovisual
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filología Hispánica / Periodismo
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filosofía / Derecho
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filosofía / Periodismo
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Historia / Periodismo
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Relaciones Internacionales e Historia
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Medicina + International Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Administración y Dirección de Empresas (castellano,bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Economía (bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Economía (bilingüe) + Leadership and Governance Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Administración y Dirección de Empresas / Derecho (castellano,bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Economía / Derecho (castellano.bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Comunicación Audiovisual (castellano, bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Periodismo (castellano, bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Marketing (bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Periodismo (castellano , bilingüe)+ Programa Internacional en Comunicación de Moda
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Periodismo (castellano , bilingüe)+ Programa Producción en Artes Escénicas
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Comunicación Audiovisual (castellano , bilingüe) + Programa Internacional en Comunicación de Moda
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Comunicación Audiovisual (castellano , bilingüe) + Programa Producción en Artes Escénicas
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Marketing (bilingüe)+ Programa Internacional en Comunicación de Moda
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Marketing (bilingüe)+ Programa Producción de Artes Escénicas
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Marketing (bilingüe)+ Corporate Communication Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filología Hispánica / Comunicación Audiovisual
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filología Hispánica / Periodismo
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filología Hispánica / Periodismo (+ International Program)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filosofía / Periodismo
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Filosofía / Periodismo (+International Program)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Historia / Periodismo
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Historia / Periodismo (+ Intertional Program)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Derecho
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Relaciones Internacionales
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Derecho + DECO (Diploma en Derecho Económico)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Derecho + AALP (Anglo-American Law Program)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Derecho + IBLP (International Business Law Program)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Derecho + GLP (Global Law Program)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Administración y Dirección de Empresas / Derecho (castellano, bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Economía / Derecho (castellano, bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Derecho y Filosofía
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Relaciones Internacionales y Derecho
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Relaciones Internacionales e Historia
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Ciclo Básico en Derecho Canónico
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Bachiller en Filosofía
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Magisterio en Educación Infantil
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Magisterio en Educación Primaria
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Pedagogía
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Psicología
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Doble Grado en Pedagogía / Educación Infantil
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Bachiller en Sagrada Teología
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Bachiller en Ciencias Religiosas
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-1 pad-2 s-border">
+                      Grado en Asistencia de Dirección-Management Assistant
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-10 mar-top-2">
+              <div id="trigger-01" class="col-12 pos-7 pos-sm-5 mar-sm-bottom-2 pad-3 height-100 background-color-third font-color-white border-radius-2">
+                <div class="col-8">
+                  <h2>Ciencias Biosanitarias</h2>
+                </div>
+                <div class="col-4 pos-3">
+                  <b><span>ver más + </span></b>
+                </div>
+              </div>
+
+              <div id="triggered-01" class="col-12">
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Biología
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Biología + International Science Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Biología + Science and Business Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Bioquímica
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Bioquímica (Orientación biomédica)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Bioquímica (Orientación biomédica) + International Science Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Bioquímica + Science and Business Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Química
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Química + International Science Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Química + Science and Business Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Ciencias Ambientales (bilingüe)
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Grado en Ciencias Ambientales (bilingüe) + International Science Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-2 pad-2 s-border">
+                      Doble Grado en Química / Bioquímica
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-10 mar-top-2">
+              <div id="trigger-01" class="col-12 pos-7 pos-sm-5 mar-sm-bottom-2 pad-3 height-100 background-color-fourth font-color-white border-radius-2">
+                <div class="col-8">
+                  <h2>Ciencias Técnicas</h2>
+                </div>
+                <div class="col-4 pos-3">
+                  <b><span>ver más + </span></b>
+                </div>
+              </div>
+
+              <div id="triggered-02" class="col-12">
+
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería Biomédica
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería Eléctrica
+
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos + Global Industrial Design Engineering Programme
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería en Electrónica de Comunicaciones
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería en Electrónica Industrial
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería en Organización Industrial
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Organización Industrial + International Industrial Management Program
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería en Sistemas de Telecomunicación
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería en Tecnologías Industriales
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería Mecánica
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería de la Energía
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Estudios de Arquitectura
+                    </div>
+                  </a>
+                </div>
+                <div class="col-12 pad-top-2 pad-right-2 pad-xs-right-0">
+                  <a href="#" class="col-12">
+                    <div class="col-12 grado-3 pad-2 s-border">
+                      Grado en Diseño/ Design
+                    </div>
+                  </a>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="section col-12 pos-5 pad-top-5 pad-bottom-5">
-      <div class="col-6 pos-5">
-        <div class="col-12 pos-5">
-          <h1 class="font-color-second-color">VEN Y RESUELVE TUS DUDAS</h1>
-        </div>
-        <div class="col-10 pos-5 text-align-center pill">
-            <h3 class="pill-title">Todos queremos lo mejor para nuestros hijos. La Universidad de Navarra es la oportunidad de garantizarles su futuro. Por esta razón, te invitamos a la sesión informativa que se celebra en tu ciudad. Recibirás respuestas claras a todas tus preguntas.  </h3>
-        </div>
-      </div>
-    </div>
-
-    <div class="section col-12 pos-5 first-color pad-top-5 pad-bottom-5">
-      <div class="col-6 pos-5">
-        <div class="col-12 pos-5">
-          <h1 class="font-color-second-color pill-title">CUANDO</h1>
-        </div>
-        <div class="col-12 pos-5 font-color-white">
-          <div class="col-12 pos-5 pill">
-            <h3  class="pill-title">MIÉRCOLES 10 DE OCTUBRE DE 2018, 16:00 PM - 20:00 PM</3>
-          </div>
-          <div class="col-12 pos-5 pill">
-            <h4 class="pill-title">HOTEL DECÁPOLIS</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="col-12">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.942333364909!2d-79.51928604856406!3d8.977453993525007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fac555d13042fef%3A0x3099dcc78bd4a70a!2sRadisson+Decapolis+Hotel+Panama+City!5e0!3m2!1ses!2ses!4v1537451916946" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <div class="col-12 background-image-03">
-      <div class="section col-12 background-color-01">
-
-      </div>
-    </div>
-    <div class="section col-12 pos-5 second-color pad-top-5 pad-bottom-5">
-      <div class="col-12 pos-5">
-        <div class="  pad-top-3 pos-5">
-          <img class="logo-unav" src="https://info.unav.edu/l/532212/2018-08-31/2v1vn8/532212/74031/logo_blanco.png" alt="logo unav">
-        </div>
-      </div>
+    <div class="col-12 background-color-softdark pos-5 height-10 font-color-white">
+      <img class="header-logo pad-2" src="https://storage.pardot.com/532212/74031/logo.gif" alt="">
     </div>
   </body>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('div[id^="triggered"]').hide();
+
+      $('div[id^="trigger"]').click(function(){
+        $(this).next('div').toggle();
+      })
+    })
+  </script>
 </html>
